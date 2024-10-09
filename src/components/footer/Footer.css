@@ -2,12 +2,13 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 .footer{
-    padding: 5% 10%;
+    padding: 5% 25%;
     background-color: var(--barva);
 }
 
-.footer__box{
+.footer__container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15px;
@@ -15,15 +16,31 @@ html { box-sizing: border-box; }
 
 }
 
+.footer__box{
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
 .footer__icon,
 .footer__data{
-    display: inline;
-    text-align: center;
     color: #ffff;
+}
+
+.footer__box .footer__data{
+    flex: 100%;
 }
 
 .footer__icon{
     font-size: 1.5rem;
+    text-align: right;
+}
+
+.footer__data{
+    text-align: center;
 }
 
 .footer__sign{
@@ -31,3 +48,4 @@ html { box-sizing: border-box; }
     text-align: center;
     padding: 5px;
 }
+
