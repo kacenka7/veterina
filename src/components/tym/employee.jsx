@@ -5,7 +5,7 @@ export const employee = [
         degree: "MvDr.",
         position: "Vedoucí lékař",
         about: "Vedoucí lékař veterinární kliniky. Arnošt je členem kardiologické sekce České asociace malých zvířat a členem České asociace felinní medicíny. Zabývá se kardiologií, oftalmologií, interní medicínou, ortopedií a chirurgií. ",
-        photo: "../components/tym/img/macek.webp" 
+        photo: ".img/macek.webp" 
     },
 
     {
