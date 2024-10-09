@@ -5,7 +5,7 @@ import { Onas } from './components/Onas/Onas';
 import { Pohotovost } from './components/Pohotovost/Pohotovost';
 import { Tym } from './components/tym/Tym';
 import { Sluzby } from './components/sluzby/Sluzby';
-import { Map } from './components/map/map';
+import {Map} from './components/map/Map';
 import { Footer } from './components/footer/Footer';
 
 import './global.css';
