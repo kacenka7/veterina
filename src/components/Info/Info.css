@@ -1,0 +1,36 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.info{
+    padding: 5% 15%;
+}
+
+.info__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0 0 5% 0;
+    border-radius:  0 15px 15px 15px;
+    border: var(--barva) 2px solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.18);  
+}
+
+.info__icon{
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__data{
+    flex: 70%;
+}
+
+.info__headliner{
+    margin: 0 0 10px 0;
+}
+
+.info__data p{
+    margin: 0 0 5px 0;
+}

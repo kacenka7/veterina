@@ -1,0 +1,33 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.footer{
+    padding: 5% 10%;
+    background-color: var(--barva);
+}
+
+.footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 0;
+
+}
+
+.footer__icon,
+.footer__data{
+    display: inline;
+    text-align: center;
+    color: #ffff;
+}
+
+.footer__icon{
+    font-size: 1.5rem;
+}
+
+.footer__sign{
+    color: #ffff;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,109 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.nasTym{
+    padding: 5% 0;
+}
+
+.nasTym__headliner{
+    padding: 0 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nasTym__slider{
+    overflow: hidden;
+}
+
+.nasTym__inner{
+    display: flex;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1);
+}
+
+
+@keyframes slider {
+    0% {
+        transform: translate(0,0);
+    }
+    16%{
+        transform: translate(0,0);
+    }
+    20%{
+        transform: translate(-20%,0);
+    }
+    36%{
+        transform: translate(-20%,0);
+    }
+    40%{
+        transform: translate(-40%,0);
+    }
+    56%{
+        transform: translate(-40%,0)
+    }
+    60%{
+        transform: translate(-60%,0) ;
+    }
+    76%{
+        transform: translate(-60%,0) ;
+    }
+    80%{
+        transform: translate(-80%,0);
+    }
+
+    96%{
+        transform: translate(-80%,0);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+    
+}
+
+.nasTym__employee{
+    flex: 100%;
+    padding: 0 2%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nasTym__photo{
+    flex: 100%;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.nasTym__name,
+.nasTym__position{
+    text-align: center;
+    flex: 100%;
+    margin: 10px 0;
+}
+
+.nasTym__box{
+    background-color:var(--barva);
+    border-radius: 20px 0 20px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.18);
+
+}
+
+.nasTym__about{
+    flex: 100%;
+    margin: 0;
+    text-align: justify;
+    padding: 5%;
+
+    
+}
+

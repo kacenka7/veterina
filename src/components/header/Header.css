@@ -1,0 +1,99 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.header{
+  margin: 0;
+  background-image: url("./img/cover.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;  
+  background-size: cover;
+}
+
+.header__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+/*------------------ Navigation ------------------ */
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 15%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.navBar__burgerMenu{
+  padding: 10px 30px 5px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+}
+
+.navBar__menu{
+  flex: 100%;
+  list-style: none;
+  text-align: right;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  background-color: RGB(255, 255, 255, 0.9);
+  z-index: 10;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color:var(--barva);
+}
+
+
+.navBar__item{
+  padding: 10px 30px 5px 0 ;
+}
+
+
+.navBar__menu--close{
+  display: none;
+}
+
+
+/*------------------ Title ------------------*/
+
+  .header__title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    padding: 0 8% 0 0;
+    width: 100%;
+    height: 85%;
+  }
+
+
+.veterina,
+.macek{
+  flex: 100%;
+  color:	#FFFFFF;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: right;
+}
+
+.veterina{
+  padding: 2% 0;
+  font-size: 30px;
+}
+
+.macek{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
